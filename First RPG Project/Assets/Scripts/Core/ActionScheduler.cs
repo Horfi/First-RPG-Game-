@@ -9,15 +9,15 @@ namespace RPG.Core
     {
         IAction curentAction;
 
-        public void StartAction(MonoBehaviour action)
+        public void StartAction(IAction action)
         {
-            if (curentAction == action) return;
+            if(curentAction == action) return;
             if(curentAction != null)
             {
                 curentAction.Cancel();
 
             }
-            curentAction = (IAction)action;
+            curentAction = action;
 
         }
     }
