@@ -55,6 +55,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 13707166, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bfbe2e8b331e2cc42be1591f949c0e41, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
 --- !u!1001 &3385393501577704568
@@ -78,11 +82,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2576785321780684564, guid: df9ca95f9fab7e34e9bd9e312eb7945c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.239022
+      value: -2.23
       objectReference: {fileID: 0}
     - target: {fileID: 2576785321780684564, guid: df9ca95f9fab7e34e9bd9e312eb7945c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0000014305115
+      value: 0.09
       objectReference: {fileID: 0}
     - target: {fileID: 2576785321780684564, guid: df9ca95f9fab7e34e9bd9e312eb7945c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -144,9 +148,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 4
+  m_Height: 2.5
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.8, z: 0}
 --- !u!114 &142214375420879746
 MonoBehaviour:
   m_ObjectHideFlags: 0
